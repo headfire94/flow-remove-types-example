@@ -1,0 +1,12 @@
+{
+  "name": "flow-strip-types-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "flow-remove-types index.js > output.js"
+  },
+  "dependencies": {
+    "flow-remove-types": "^2.210.2"
+  }
+}
